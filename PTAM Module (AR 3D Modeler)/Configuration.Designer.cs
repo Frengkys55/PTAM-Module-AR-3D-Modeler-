@@ -25,7 +25,7 @@ namespace PTAM_Module__AR_3D_Modeler_ {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("HUBNotifierChannel")]
         public string HUBNotifierChannel {
             get {
                 return ((string)(this["HUBNotifierChannel"]));
@@ -34,7 +34,7 @@ namespace PTAM_Module__AR_3D_Modeler_ {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ModelerNotifierChannel")]
         public string ModelerNotifierChannel {
             get {
                 return ((string)(this["ModelerNotifierChannel"]));
@@ -43,7 +43,7 @@ namespace PTAM_Module__AR_3D_Modeler_ {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PTAMSourceImage")]
         public string MMFFileName {
             get {
                 return ((string)(this["MMFFileName"]));
