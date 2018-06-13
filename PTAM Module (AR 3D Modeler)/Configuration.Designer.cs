@@ -25,7 +25,7 @@ namespace PTAM_Module__AR_3D_Modeler_ {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("HUBNotifierChannel")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PTAMHUBNotifierChannel")]
         public string HUBNotifierChannel {
             get {
                 return ((string)(this["HUBNotifierChannel"]));
@@ -34,7 +34,7 @@ namespace PTAM_Module__AR_3D_Modeler_ {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ModelerNotifierChannel")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PTAMModelerNotifierChannel")]
         public string ModelerNotifierChannel {
             get {
                 return ((string)(this["ModelerNotifierChannel"]));

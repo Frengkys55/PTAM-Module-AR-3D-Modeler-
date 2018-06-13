@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="HUBNotifierChannel" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">HUBNotifierChannel</Value>
+      <Value Profile="(Default)">PTAMHUBNotifierChannel</Value>
     </Setting>
     <Setting Name="ModelerNotifierChannel" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">ModelerNotifierChannel</Value>
+      <Value Profile="(Default)">PTAMModelerNotifierChannel</Value>
     </Setting>
     <Setting Name="MMFFileName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">PTAMSourceImage</Value>

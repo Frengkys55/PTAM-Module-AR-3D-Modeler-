@@ -135,7 +135,7 @@ namespace PTAM_Module__AR_3D_Modeler_
                         DummyInfo();
 
                         ContentBuilder();
-                        ModelerNotifierSender(modelerNotifierChannel, PTAMContentInfo);
+                        ModelerNotificationSender(modelerNotifierChannel, PTAMContentInfo);
                     }
                 }
                 catch (Exception err)
@@ -175,6 +175,7 @@ namespace PTAM_Module__AR_3D_Modeler_
              * ---[ Main content
              * 1. Camera Position
              * 2. Camera Orientation
+             * 3. Total created points
              * ---[ Performance content
              * 3. Overall performance
              * 4. HUB receiver performance
@@ -202,7 +203,7 @@ namespace PTAM_Module__AR_3D_Modeler_
             HUBReceiverPerformance = HUBNotifierWatcher.ElapsedMilliseconds;
         }
 
-        static void ModelerNotifierSender(string PipeName, string Content)
+        static void ModelerNotificationSender(string PipeName, string Content)
         {
             NamedPipeClient client = new NamedPipeClient(PipeName);
             if (!client.CheckConnection())
